@@ -5,7 +5,7 @@ var express = require('express'),
 
 app.configure(function() {
     app.set('title', 'Ionic Demo Server');
-    app.set('port', 8888);
+    app.set('port', 8080);
     app.use(express.logger());
     app.use(express.compress());
     app.use(express.static(__dirname + '/www'));
