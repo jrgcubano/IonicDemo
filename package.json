@@ -1,0 +1,19 @@
+{
+    "name": "ionic-demo",
+    "version": "0.0.1",
+    "description": "A demo project using AngularJS, IONIC, Cordova",
+    "author": "Fabien Dehopré",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "dependencies": {
+        "express": "~3.4.4"
+    },
+    "devDependencies": {
+    },
+    "private": true
+}

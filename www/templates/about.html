@@ -1,0 +1,35 @@
+<view title="'About'" left-buttons="leftButtons" right-buttons="rightButtons">
+  <content has-header="true" padding="true" scroll="true" on-refresh="reloadContacts()">
+  <refresher></refresher>
+  <list>
+    <item ng-repeat="contact in contacts" ng-bind="contact.name"></item>
+  </list>
+  </content>
+</view>
+<script id="modal.html" type="text/ng-template">
+  <div class="modal">
+    <header class="bar bar-header bar-positive">
+      <h1 class="title">New Contact</h1>
+      <button class="button button-clear button-positive" ng-click="closeModal()">Cancel</button>
+    </header>
+    <content has-header="true">
+      <div class="padding">
+        <div class="list">
+          <label class="item item-input">
+            <span class="input-label">First Name</span>
+            <input type="text" placeholder="">
+          </label>
+          <label class="item item-input">
+            <span class="input-label">Last Name</span>
+            <input type="text" placeholder="">
+          </label>
+          <label class="item item-input">
+            <span class="input-label">Email</span>
+            <input type="text" placeholder="">
+          </label>
+          <button class="button button-full button-positive" ng-click="closeModal()">Create</button>
+        </div>
+      </div>
+    </content>
+  </div>
+</script>
