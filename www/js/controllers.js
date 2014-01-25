@@ -5,13 +5,11 @@
     .controller('AppCtrl', ['$scope', '$location', function($scope, $location) {
       $scope.goTo = function(page) {
         global.console.log('Going to ' + page);
-        $scope.sideMenuController.toggleLeft();
         $location.path('/' + page);
       };
-      $scope.goTo2 = function(page) {
-        global.console.log('Going to ' + page);
-        $location.path('/' + page);
-      };
+      $scope.$on('$locationChangeSuccess', function() {
+        $scope.sideMenuController.close();
+      });
     }])
     .controller('HomeCtrl', ['$scope', '$timeout', '$ionicLoading', function($scope, $timeout, $ionicLoading) {
       $scope.leftButtons = [{
