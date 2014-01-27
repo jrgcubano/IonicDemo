@@ -6,3 +6,30 @@
   width: 96px;
   height: 96px;
 }
+
+.box {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.box h1 {
+  color: white;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pink {
+  background-color: fuchsia;
+}
+
+.full-height > .scroll,
+.full-height > .scroll > .slider {
+  height: 100%;
+}

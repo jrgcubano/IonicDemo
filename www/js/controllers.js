@@ -8,7 +8,9 @@
         $location.path('/' + page);
       };
       $scope.$on('$locationChangeSuccess', function() {
-        $scope.sideMenuController.close();
+        if ($scope.sideMenuController.isOpen()) {
+          $scope.sideMenuController.close();
+        }
       });
     }])
     .controller('HomeCtrl', ['$scope', '$timeout', '$ionicLoading', function($scope, $timeout, $ionicLoading) {
@@ -22,9 +24,9 @@
       $scope.showLoading = function() {
         var loading = $ionicLoading.show({
           content: 'Loading...',
-          animation: 'fade-in',
           showBackdrop: true,
           maxWidth: 200,
+          animation: 'fade-in',
           showDelay: 500
         });
         $timeout(function(){
