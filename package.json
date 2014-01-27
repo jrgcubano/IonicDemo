@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "description": "A demo project using AngularJS, IONIC, Cordova",
     "author": "Fabien Dehopré",
-    "main": "server.js",
+    "main": "./www/index.html",
     "scripts": {
         "start": "node server.js"
     },
@@ -15,5 +15,13 @@
     },
     "devDependencies": {
     },
-    "private": true
+    "private": true,
+    "window": {
+        "title": "Ionic Demo",
+        "icon": "./www/img/ionic.png",
+        "toolbar": false,
+        "width": 360,
+        "height": 640,
+        "resizable": false 
+    }
 }
