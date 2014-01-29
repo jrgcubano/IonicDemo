@@ -4,3 +4,4 @@ platforms/^.*
 node_modules
 npm-debug.log
 *.nw
+*.sublime-workspace
