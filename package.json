@@ -1,27 +1,29 @@
 {
-    "name": "ionic-demo",
-    "version": "0.0.1",
-    "description": "A demo project using AngularJS, IONIC, Cordova",
-    "author": "Fabien Dehopré",
-    "main": "./www/index.html",
-    "scripts": {
-        "start": "node server.js"
-    },
-    "engines": {
-        "node": ">=0.10.0"
-    },
-    "dependencies": {
-        "express": "~3.4.4"
-    },
-    "devDependencies": {
-    },
-    "private": true,
-    "window": {
-        "title": "Ionic Demo",
-        "icon": "./www/img/ionic.png",
-        "toolbar": false,
-        "width": 360,
-        "height": 640,
-        "resizable": false 
-    }
+  "name": "ionic-demo",
+  "version": "0.0.1",
+  "description": "A demo project using AngularJS, IONIC, Cordova",
+  "author": "Fabien Dehopré",
+  "main": "./www/index.html",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "express": "latest"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-angular-gettext": "~0.2.5"
+  },
+  "private": true,
+  "window": {
+    "title": "Ionic Demo",
+    "icon": "./www/img/ionic.png",
+    "toolbar": false,
+    "width": 360,
+    "height": 640,
+    "resizable": false
+  }
 }

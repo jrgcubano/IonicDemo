@@ -13,7 +13,7 @@
         }
       });
     }])
-    .controller('HomeCtrl', ['$scope', '$timeout', '$ionicLoading', function($scope, $timeout, $ionicLoading) {
+    .controller('HomeCtrl', ['$scope', '$timeout', '$ionicLoading', 'gettext', 'gettextCatalog', function($scope, $timeout, $ionicLoading, gettext, gettextCatalog) {
       $scope.leftButtons = [{
         type: 'button-icon icon ion-navicon',
         tap: function(e) {
@@ -23,7 +23,7 @@
       $scope.rightButtons = [];
       $scope.showLoading = function() {
         var loading = $ionicLoading.show({
-          content: 'Loading...',
+          content:  gettextCatalog.getString(gettext('Loading...')),
           showBackdrop: true,
           maxWidth: 200,
           animation: 'fade-in',
@@ -34,7 +34,7 @@
         }, 5000);
       };
     }])
-    .controller('AboutCtrl', ['$scope', '$ionicActionSheet', '$ionicModal', 'ContactService', function($scope, $ionicActionSheet, $ionicModal, ContactService) {
+    .controller('AboutCtrl', ['$scope', '$ionicActionSheet', '$ionicModal', 'ContactService', 'gettext', 'gettextCatalog', function($scope, $ionicActionSheet, $ionicModal, ContactService, gettext, gettextCatalog) {
       function loadContacts() {
         $scope.contacts = ContactService.getContacts(50);
         $scope.$broadcast('scroll.refreshComplete');
@@ -64,12 +64,12 @@
         tap: function(e) {
           $ionicActionSheet.show({
             buttons: [
-              { text: 'Show Modal' },
-              { text: 'Don\'t close the menu' }
+              { text: gettextCatalog.getString(gettext('Show Modal')) },
+              { text: gettextCatalog.getString(gettext('Don\'t close the menu')) }
             ],
-            titleText: 'Demo Menu',
-            destructiveText: 'Delete',
-            cancelText: 'Cancel',
+            titleText: gettextCatalog.getString(gettext('Demo Menu')),
+            destructiveText: gettextCatalog.getString(gettext('Delete')),
+            cancelText: gettextCatalog.getString(gettext('Cancel')),
             cancel: function() {
               console.log('Canceled');
             },
