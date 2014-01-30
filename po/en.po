@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.6.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: www/index.html
+msgid "About"
+msgstr "About"
+
+#: www/templates/slide-box.html
+msgid "BLUE"
+msgstr "BLUE"
+
+#: www/js/controllers.js
+msgid "Cancel"
+msgstr "Cancel"
+
+#: www/js/controllers.js
+msgid "Delete"
+msgstr "Delete"
+
+#: www/index.html
+msgid "Demo IONIC"
+msgstr "Demo IONIC"
+
+#: www/js/controllers.js
+msgid "Demo Menu"
+msgstr "Demo Menu"
+
+#: www/js/controllers.js
+msgid "Don't close the menu"
+msgstr "Don't close the menu"
+
+#: www/templates/home.html
+msgid "Go to about page"
+msgstr "Go to about page"
+
+#: www/templates/home.html
+msgid "Go to slide box page"
+msgstr "Go to slide box page"
+
+#: www/index.html
+msgid "Home"
+msgstr "Home"
+
+#: www/templates/home.html
+msgid "Home Page"
+msgstr "Home Page"
+
+#: www/js/controllers.js
+msgid "Loading..."
+msgstr "Loading..."
+
+#: www/index.html
+msgid "Menu"
+msgstr "Menu"
+
+#: www/templates/slide-box.html
+msgid "PINK"
+msgstr "PINK"
+
+#: www/templates/home.html
+msgid "Show Loading Box"
+msgstr "Show Loading Box"
+
+#: www/js/controllers.js
+msgid "Show Modal"
+msgstr "Show Modal"
+
+#: www/index.html
+msgid "Slide Box"
+msgstr "Slide Box"
+
+#: www/templates/slide-box.html
+msgid "YELLOW"
+msgstr "YELLOW"

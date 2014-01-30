@@ -1,0 +1,76 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: www/index.html
+msgid "About"
+msgstr ""
+
+#: www/templates/slide-box.html
+msgid "BLUE"
+msgstr ""
+
+#: www/js/controllers.js
+msgid "Cancel"
+msgstr ""
+
+#: www/js/controllers.js
+msgid "Delete"
+msgstr ""
+
+#: www/index.html
+msgid "Demo IONIC"
+msgstr ""
+
+#: www/js/controllers.js
+msgid "Demo Menu"
+msgstr ""
+
+#: www/js/controllers.js
+msgid "Don't close the menu"
+msgstr ""
+
+#: www/templates/home.html
+msgid "Go to about page"
+msgstr ""
+
+#: www/templates/home.html
+msgid "Go to slide box page"
+msgstr ""
+
+#: www/index.html
+msgid "Home"
+msgstr ""
+
+#: www/templates/home.html
+msgid "Home Page"
+msgstr ""
+
+#: www/js/controllers.js
+msgid "Loading..."
+msgstr ""
+
+#: www/index.html
+msgid "Menu"
+msgstr ""
+
+#: www/templates/slide-box.html
+msgid "PINK"
+msgstr ""
+
+#: www/templates/home.html
+msgid "Show Loading Box"
+msgstr ""
+
+#: www/js/controllers.js
+msgid "Show Modal"
+msgstr ""
+
+#: www/index.html
+msgid "Slide Box"
+msgstr ""
+
+#: www/templates/slide-box.html
+msgid "YELLOW"
+msgstr ""
