@@ -14,8 +14,8 @@
     "express": "latest"
   },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-angular-gettext": "~0.2.5"
+    "grunt": "~1.0.1",
+    "grunt-angular-gettext": "~2.3.3"
   },
   "private": true,
   "window": {
